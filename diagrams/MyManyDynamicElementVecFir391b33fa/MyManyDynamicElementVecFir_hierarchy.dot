@@ -2,7 +2,7 @@ digraph MyManyDynamicElementVecFir_hierarchy { rankdir="TB"
  node [shape="rectangle"]; 
 rankdir="LR" 
 stylesheet = "styles.css"
-module_3 [shape= "plaintext" href="MyManyDynamicElementVecFir.dot.svg" label=<
+module_2 [shape= "plaintext" href="MyManyDynamicElementVecFir.dot.svg" label=<
 
 <TABLE BORDER="0" CELLBORDER="1" CELLSPACING="0" CELLPADDING="4" >
       
