@@ -5,4 +5,7 @@
   - (2.2 - Arbiter Exercise) Where exactly are all the defined signals (ready, valid, data for all components) in the Arbiter schematic?
   - (2.3 - Polynomial Circuit Exercise) Why do they put the brackets around some of the terms in the solution? For readability?
   - (2.4 - End of Registers) How do I use the reset in theses implicit tests? Are those implicit tests? 
-  - (2.5 - FIR Filter 8-Bit) Why does the Solution use "b0.U(8.W)" instead of just "b0.U" for the Scala constants? 
+  - (2.5 - FIR Filter 8-Bit) Why does the Solution use "b0.U(8.W)" instead of just "b0.U" for the Scala constants?
+  - (3.1 - "Parameter Passing" last code block) It says that require(...) is a pre-elaboration check, and googling tells me that it should throw an IllegalArgumentException, but executing the Code shows the "Elaborating design..." and crashes with a ChiselExecutionFailure. What is going on here?
+  - (3.2 Interlude - Queues) Why does the output read 42 in the last cycle? Shouldn't it be 0?
+  - (3.2 Interlude - OH-to-Int) Why are there no errors on non-OH-inputs? Why is 0 and invalid input? Why does it read 15 on the other invalid inputs? Is it just because behaviour is undefined then?
