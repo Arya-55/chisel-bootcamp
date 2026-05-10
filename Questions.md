@@ -9,3 +9,8 @@
   - (3.1 - "Parameter Passing" last code block) It says that require(...) is a pre-elaboration check, and googling tells me that it should throw an IllegalArgumentException, but executing the Code shows the "Elaborating design..." and crashes with a ChiselExecutionFailure. What is going on here?
   - (3.2 Interlude - Queues) Why does the output read 42 in the last cycle? Shouldn't it be 0?
   - (3.2 Interlude - OH-to-Int) Why are there no errors on non-OH-inputs? Why is 0 and invalid input? Why does it read 15 on the other invalid inputs? Is it just because behaviour is undefined then?
+  - (3.5 - Abstract Classes & Traits) Why is the keyword "override" used in the Trait implementation, but not in the implementation of the abstract Class?
+  - (3.6 - Type Casting in Chisel) It doesn't error as said in the text but instead tries to elaborate forever, why is that?
+  - (3.6 - Match Operator) Why does the error message "I give up!" not show up in the error message in the cell output?
+  - (3.6 - Unapply) How are the three last examples equivalent statements, if the last statement matches if s.pipelineMe is true?
+  - (3.6 - Type Safe Connections) All three connection examples throw errors, event though two of them should just pad/truncate, but why?
